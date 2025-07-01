@@ -12,7 +12,7 @@ def login():
             print("Login Successful.")
             import Admin
             Admin.admin_menu()
-        else:
+        ele:
             print("username or password is incorrect.\n Please try again.")
 
 
